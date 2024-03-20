@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f9f9fb;
+
+}
+
+.userEyes{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.userEyes__avt1{
+    width: 100%;
+    height: 50%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px 20px 0px 0px ;
+    
+    
+}
+
+.userEyes__avt2{
+    height: 150px ;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: -100px;
+    border: 4px solid #fff;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    
+}
+
+.userEyes__avt3{
+    text-align: center;
+   
+}
+
+.userEyes__item1{
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.userEyes__item1--blur{
+    background-color: #fff;
+    font-size: 15px;
+    color: #7a7a7b;
+    margin: 0;
+}
+
+.userEyes__fl{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around ;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    
+    
+    
+}
+
+.userEyes__change, .userEyes__commit,.userEyes__fler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #fff;
+    
+}
+
+.user{
+    height: 500px;
+    width: 300px;
+    margin: 0 auto;
+    background: url("./thanh.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    color: rgb(244, 84, 244);
+
+}
+
+.user__connect{
+    height: 250px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.user__avt{
+    height: 60px ;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    
+}
+
+.user__item{
+    font-size: 14px;
+    margin: 0;
+}
+
+.user__name{
+    text-align: center;
+}
+.user__item--btn{
+    font-size: 12px;
+    color: plum;
+    height: 20px;
+    width: 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(245, 216, 245);
+}
+
+.user__item--blur{
+    color: rgb(244, 189, 244);
+    font-size: 10px;
+    text-align: center;
+    
+    
+}
+
+.user__item--bold{
+    font-weight: 600 ;
+}
+
+.user__item--similar{
+    font-size: 12px;
+    
+}
+
+.user__btn{
+    width: 90%;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.user__message{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgb(244, 84, 244);
+    color: rgb(244, 84, 244) ;
+}
+
+.user__message--cn{
+    background-color:rgb(244, 84, 244) ;
+    color: #fff;
+}
+
+
+.user__profile{
+    height: 150px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.user__fl{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+.user_flw{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+
+}
+
+.user__item--bold10{
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.user__avt--small{
+    height: 40px;
+    width: 40px;
+    margin: 0;
+}
+
+.user__inf p{
+    text-align: start;
+}
+
+.infma{
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: #f9f9fb;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.infma__infavt{
+    width: 100%;
+    height: 150px;
+}
+
+.infma__avt{
+    height: 100px ;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    
+}
+.tik{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin: -20px 150px;
+    
+}
+
+.infma__information{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.infma__item{
+    font-size: 10px;
+    margin: 0;
+}
+
+.infma__item--bold{
+    font-weight: 600 ;
+    font-size: 20px;
+}
+
+.infma__item--similar{
+    font-weight: 600 ;
+    font-size: 15px;
+    margin: 5px;
+}
+.infma__item--info{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 30px;
+}
